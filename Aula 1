@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+int main (){
+
+int idade;
+float peso, altura;
+char sexo;
+
+printf("Digite sua idade, o seu peso, altura e Sexo.\n")
+
+scanf("%d%.1f%.2f%c", &idade, &peso, &altura, &sexo);
+
+printf("Sexo: %c\nIdade: %d\n Altura: %.2f, Peso: %.1f\n")
+
+
+
+
+}
